@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal ;
+}
+
+a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgba(255, 113, 67, 0.27);
+    padding-top: 38px;
+    padding-bottom: 47px;
+}
+
+.header_flex, .footer_flex, .container_about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_li {
+    display: inline-block;
+}
+.nav_li:not(:first-of-type){
+    margin-left: 49px;
+}
+
+.nav_link{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color:  #696871;
+    ;
+    text-decoration: none ;
+}
+.nav_link:hover{
+    color: black;
+    transition: 300ms;
+}
+
+.bttn{
+    Width: 212.39px;
+    Height: 60px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bttn_orange{
+    background: #FF7143;
+}
+
+.bttn_orange:hover{
+    background: #ff602b;
+    transition: 500ms;
+}
+ 
+.container_about{
+    max-width: 1070px;
+    margin: 105px auto 85px;
+}
+
+.about_title{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    max-width: 467px;
+    margin-bottom: 30px;
+}
+
+.about_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    min-width: 464px;
+    margin-bottom: 50px;
+}
+
+.bttn_blue{
+    background: #5454D4;
+}
+
+.bttn_blue:hover{
+    background: #4444cf;
+    transition: 500ms;
+}
+
+.bttn_transprnt{
+    background: none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    margin-left: 35px;
+}
+
+.bttn_transprnt:hover{
+    background: rgba(0, 0, 0, .1);
+    transition: 500ms;
+}
+
+.footter{
+    background-color: rgba(255, 113, 67, 0.27);
+    padding-top: 53px;
+    padding-bottom: 52px;
+}
+
+
+.nav_li_foot{
+    display: inline-block;
+}
+
+.nav_li_foot:not(:first-of-type){
+    margin-left: 44px;
+}
